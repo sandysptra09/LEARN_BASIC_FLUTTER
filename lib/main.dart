@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:learn_flutter/column_widget.dart';
 import 'package:learn_flutter/container_widget.dart';
+import 'package:learn_flutter/row_column.dart';
+import 'package:learn_flutter/row_widget.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,7 +44,7 @@ class MyApp extends StatelessWidget {
                 ))
           ],
         ),
-        body: BelajarContainer2(),
+        body: LatihanTiga(),
       ),
     );
   }
