@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:learn_flutter/column_widget.dart';
 import 'package:learn_flutter/container_widget.dart';
+import 'package:learn_flutter/listview/list_basic.dart';
+import 'package:learn_flutter/listview/list_builder.dart';
+import 'package:learn_flutter/listview/list_separated.dart';
+import 'package:learn_flutter/listview/task_list.dart';
 import 'package:learn_flutter/row_column.dart';
 import 'package:learn_flutter/row_widget.dart';
 
@@ -44,7 +48,7 @@ class MyApp extends StatelessWidget {
                 ))
           ],
         ),
-        body: LatihanTiga(),
+        body: TugasListView(),
       ),
     );
   }
