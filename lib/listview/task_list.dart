@@ -59,7 +59,7 @@ class TugasListView extends StatelessWidget {
 
   final List<ListGallery> itemListGallery = [
     ListGallery(
-        "https://img.ws.mms.shopee.co.id/sg-11134201-7qvem-ljb756n5951d9f",
+        "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/12/6/8c79a487-fb14-4480-b55d-724fca3683f3.png",
         "Jersey Player 2023 BOXLESS"),
     ListGallery(
         "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/3/23/159331b3-2acd-4029-86da-214e7eaa35fa.png",
@@ -145,7 +145,7 @@ class TugasListView extends StatelessWidget {
                 height: 350,
                 margin: EdgeInsets.all(15),
                 decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: Colors.lightBlue,
                     borderRadius: BorderRadius.circular(20)),
                 child: ListView.builder(
                   scrollDirection: Axis.vertical,
@@ -196,7 +196,7 @@ class TugasListView extends StatelessWidget {
                 height: 200,
                 margin: EdgeInsets.all(10),
                 decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: Colors.lightBlue,
                     borderRadius: BorderRadius.circular(20)),
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
@@ -240,7 +240,7 @@ class TugasListView extends StatelessWidget {
                 margin:
                     EdgeInsets.only(top: 10, bottom: 20, left: 10, right: 10),
                 decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: Colors.lightBlue,
                     borderRadius: BorderRadius.circular(20)),
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,

@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:learn_flutter/column_widget.dart';
 import 'package:learn_flutter/container_widget.dart';
+import 'package:learn_flutter/gridview/grid_basic.dart';
+import 'package:learn_flutter/gridview/grid_builder.dart';
+import 'package:learn_flutter/gridview/grid_count.dart';
+import 'package:learn_flutter/gridview/grid_fullscreen.dart';
+import 'package:learn_flutter/gridview/latihan_grid.dart';
 import 'package:learn_flutter/listview/list_basic.dart';
 import 'package:learn_flutter/listview/list_builder.dart';
 import 'package:learn_flutter/listview/list_separated.dart';
@@ -48,7 +53,7 @@ class MyApp extends StatelessWidget {
                 ))
           ],
         ),
-        body: TugasListView(),
+        body: LatihanGrid(),
       ),
     );
   }
